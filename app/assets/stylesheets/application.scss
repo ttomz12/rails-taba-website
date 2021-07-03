@@ -78,6 +78,22 @@ body {
   }
 }
 
+.email-container{
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 40%;
+  h2 {
+    font-family: 'IBM Plex Serif', serif;
+  }
+}
+
 .footer {
   background-color: black;
   color: white;
