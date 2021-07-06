@@ -59,24 +59,31 @@ body {
   margin-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
+  p {
+    font-size: 1.5vw;
+  }
 }
 
 .info-header {
   margin-top: 10px;
   padding: 10px;
-  font-family: 'IBM Plex Serif', serif;
+  h1 {
+    font-size: 3.25vw;
+  }
 }
 
 .info-container{
   display: flex;
   justify-content: space-around;
-  font-family: 'IBM Plex Serif', serif;
 }
 
 .info-box {
   width: 40%;
   h2 {
-    font-family: 'IBM Plex Serif', serif;
+    font-size: 2.75vw;
+  }
+  p {
+    font-size: 1.5vw;
   }
 }
 
@@ -91,13 +98,14 @@ body {
   flex-direction: column;
   padding-bottom: 20px;
   width: 40%;
-  h2 {
-    font-family: 'IBM Plex Serif', serif;
-  }
 }
 
 .footer {
   background-color: black;
   color: white;
   padding: 8px;
+  p {
+    font-size: 1.25vw;
+    margin-bottom: 0;
+  }
 }

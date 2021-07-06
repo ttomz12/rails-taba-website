@@ -3,26 +3,35 @@
   justify-content: center;
   background-color: #30475E;
   color: white;
+  h1{
+    margin-bottom: 0;
+  }
 }
 
 .who-header {
   max-width: 20%;
+  h1 {
+    font-size: 3vw;
+  }
 }
 
 .who-text {
   max-width: 50%;
   display: flex;
   align-items: center;
-  //margin-bottom: 0px;
+  p {
+    font-size: 1.5vw;
+    margin-bottom: 0;
+  }
 }
 
 .about-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .about-card {
-  max-width: 40%;
+  max-width: 35%;
   height: auto;
   border-radius: 10px;
   padding: 20px;
@@ -40,14 +49,20 @@
 .about-image {
   text-align: center;
   img {
-    width:300px; /* you can use % */
-    height: 300px;
+    width:70%; /* you can use % */
+    height: 70%;
     border-radius: 10px;
   }
 }
 
 .about-name {
   margin: 10px;
+  h2 {
+    font-size: 3vw;
+  }
+  h4 {
+    font-size: 2vw;
+  }
 }
 
 .company-logos {
