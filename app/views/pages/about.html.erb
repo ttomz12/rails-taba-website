@@ -1,8 +1,12 @@
 <html>
 <body>
   <div class="who-we-are">
-    <h1>Quienes Somos</h1>
-    <p>Somos dos emprededores educados en Harvard Business School, apasionados sobre el desarrollo del sector de manufactura en Latinoamérica</p>
+    <div class="who-header">
+      <h1><b>Quienes Somos</b></h1>
+    </div>
+    <div class="who-text">
+      <p>Dos emprededores educados en la Escuela de Negocios de Harvard con experiencia en manufactura y tecnología, apasionados sobre el desarrollo del sector de manufactura en Latinoamérica</p>
+    </div>
   </div>
 
   <div class="about-container">
@@ -10,28 +14,84 @@
       <div class="about-image">
         <%= image_tag "https://media-exp1.licdn.com/dms/image/C4D03AQHXsK_W9l4BwQ/profile-displayphoto-shrink_800_800/0/1620403275922?e=1631145600&v=beta&t=upObZX5dwYMQ6CmOCQFPnTWrPV4j_fanfpqLMwKwQ84" %>
       </div>
-      <h2>
-        Taro Tomiya
-        <%= link_to href="https://www.linkedin.com/in/taro-tomiya-6b085351/" do %>
-          <i class="fab fa-linkedin"></i>
-        <% end %>
-      </h2>
-      <h3>Co-Fundador</h3>
-      <%= image_tag "rappi-logo.png" %>
+      <div class="about-name">
+        <h2>
+          <b>Taro Tomiya</b>
+          <%= link_to href="https://www.linkedin.com/in/taro-tomiya-6b085351/" do %>
+            <i class="fab fa-linkedin"></i>
+          <% end %>
+        </h2>
+        <h4>Co-Fundador</h4>
+      </div>
+      <div class="company-logos">
+        <div class="company-logo">
+          <%= link_to href="https://www.rappi.com" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581514/Tabato/Rappi_logo.svg_wbceug.png",
+            width: 150, height: 60, crop: :fill) %>
+          <% end %>
+        </div>
+        <div class="company-logo">
+          <%= link_to href="https://www.truora.com" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581514/Tabato/truoralogo_ixhngr.png",
+            width: 150, height: 60, crop: :fill) %>
+          <% end %>
+        </div>
+        <div class="company-logo">
+          <%= link_to href="https://www.northwestern.edu" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581899/Tabato/northwesternlogo_jbpi8d.png",
+            width: 150, height: 50, crop: :fill) %>
+          <% end %>
+        </div>
+        <div class="company-logo">
+          <%= link_to href="https://www.hbs.edu/about/Pages/default.aspx" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581898/Tabato/hbslogo_dfjvkq.png",
+            width: 150, height: 60, crop: :fill) %>
+          <% end %>
+        </div>
+      </div>
     </div>
 
     <div class="about-card">
       <div class="about-image">
         <%= image_tag "https://media-exp1.licdn.com/dms/image/C4D03AQENiME1ZGUlRw/profile-displayphoto-shrink_800_800/0/1612984994406?e=1631145600&v=beta&t=3ey_Flse-EkiH0KR5apqCF0btKDKssocRbA5_QhjMt0" %>
       </div>
-      <h2>
-        Daniel Baiz
-        <%= link_to href="https://www.linkedin.com/in/daniel-baiz/" do %>
-          <i class="fab fa-linkedin"></i>
-        <% end %>
-      </h2>
-      <h3>Co-Fundador</h3>
+      <div class="about-name">
+        <h2>
+          <b>Daniel Baiz</b>
+          <%= link_to href="https://www.linkedin.com/in/daniel-baiz/" do %>
+            <i class="fab fa-linkedin"></i>
+          <% end %>
+        </h2>
+        <h4>Co-Fundador</h4>
+      </div>
+      <div class="company-logos">
+        <div class="company-logo">
+          <%= link_to href="https://www.averydennison.com/en/home.html" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581582/Tabato/acerydennisonlogo.png",
+            width: 150, height: 55, crop: :fill) %>
+          <% end %>
+        </div>
+        <div class="company-logo">
+          <%= link_to href="https://www.hsbc.com" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581513/Tabato/HSBC-logo_onum0d.png",
+            width: 150, height: 55, crop: :fill) %>
+          <% end %>
+        </div>
+        <div class="company-logo">
+          <%= link_to href="https://www.purdue.edu" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581898/Tabato/purduelogo_sko1vi.png",
+            width: 150, height: 50, crop: :fill) %>
+          <% end %>
+        </div>
+        <div class="company-logo">
+          <%= link_to href="https://www.hbs.edu/about/Pages/default.aspx" do %>
+            <%= cl_image_tag("https://res.cloudinary.com/dqxwg5nmh/image/upload/v1625581898/Tabato/hbslogo_dfjvkq.png",
+            width: 150, height: 60, crop: :fill) %>
+          <% end %>
+        </div>
+      </div>
     </div>
+
   </div>
   <div class="footer">
     TABATO

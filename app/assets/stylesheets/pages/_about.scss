@@ -1,15 +1,40 @@
+.who-we-are {
+  display: flex;
+  justify-content: center;
+  background-color: #30475E;
+  color: white;
+}
+
+.who-header {
+  max-width: 20%;
+}
+
+.who-text {
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  //margin-bottom: 0px;
+}
+
 .about-container {
   display: flex;
   justify-content: space-around;
 }
 
 .about-card {
-  //display: flex;
-  //justify-content: column;
-  max-width: 25%;
+  max-width: 40%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  h4 {
+    font-style: italic;
+  }
+}
+
+.about-card:hover {
+  background-color: white;
 }
 
 .about-image {
@@ -17,5 +42,25 @@
   img {
     width:300px; /* you can use % */
     height: 300px;
+    border-radius: 10px;
   }
+}
+
+.about-name {
+  margin: 10px;
+}
+
+.company-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.company-logo {
+  padding: 10px;
+}
+
+.company-logo:hover {
+  background-color: lightgrey;
+  border-radius: 10px;
 }
