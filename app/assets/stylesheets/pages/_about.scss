@@ -9,18 +9,49 @@
 }
 
 .who-header {
-  max-width: 20%;
+  max-width: 30%;
+  margin: 5px;
   h1 {
     font-size: 3vw;
   }
 }
 
 .who-text {
-  max-width: 50%;
+  max-width: 60%;
   display: flex;
   align-items: center;
+  margin: 5px;
   p {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+  }
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  background-color: #F05454;
+  color: white;
+  h1{
+    margin-bottom: 0;
+  }
+}
+
+.mission-header {
+  max-width: 30%;
+  margin: 5px;
+  h1 {
+    font-size: 3vw;
+  }
+}
+
+.mission-text {
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  p {
+    font-size: 1.4vw;
     margin-bottom: 0;
   }
 }

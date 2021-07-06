@@ -16,13 +16,13 @@
 
 //@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
 body {
   //background-color: black;
   text-align: center;
   //font-family: 'Noto Sans', sans-serif;
-  font-family: 'IBM Plex Serif', serif;
+  //font-family: 'IBM Plex Serif', serif;
 }
 
 .banner {
@@ -38,12 +38,11 @@ body {
   justify-content: center;
 
   h1 {
-    color: white;
+    color: #F05454;
     font-size: 70px;
     font-weight: bold;
     text-align: center;
     text-shadow: black 2px 2px 4px;
-    font-family: 'IBM Plex Serif', serif;
   }
 }
 
@@ -59,6 +58,10 @@ body {
   margin-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
+  width: 40%;
+  h1 {
+    font-size: 3.25vw;
+  }
   p {
     font-size: 1.5vw;
   }
@@ -66,15 +69,29 @@ body {
 
 .info-header {
   margin-top: 10px;
-  padding: 10px;
+  //padding: 10px;
   h1 {
     font-size: 3.25vw;
   }
 }
 
-.info-container{
+.info-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.info-offering {
+  width: 40%;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #30475E;
+  display: flex;
+  align-items: center;
+  p {
+    margin-bottom: 0;
+    color: white;
+  }
 }
 
 .info-box {
