@@ -1,0 +1,28 @@
+<html>
+<body>
+  <div class="email-container">
+    <form method="POST" action="https://simple-form.com/taro.tomiya@gmail.com" class="email-form">
+      <div class="email-title">
+        <h2><b>Escríbenos!</b></h2>
+      </div>
+      <input type="text" name="name" placeholder="Nombre completo" />
+      <input type="email" name="replyTo" placeholder="Correo" />
+      <textarea name="message" placeholder="Mensaje"></textarea>
+      <%# <input type="hidden" name="redirectURL" value="http://www.tabato.us" /> %>
+      <input type="submit" value="Enviar" />
+    </form>
+  </div>
+
+  <%# <div id="map"
+    style="width: 100%; height: 600px;"
+    data-markers="<%= @markers.to_json %>
+  <%#  data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>
+  <%# </div> %>
+
+  <div class="footer">
+    TABATO
+    © 2021 by Tabato, Inc. All rights reserved.
+  </div>
+
+</body>
+</html>
