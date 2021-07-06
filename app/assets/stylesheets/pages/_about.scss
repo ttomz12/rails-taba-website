@@ -1,0 +1,21 @@
+.about-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-card {
+  //display: flex;
+  //justify-content: column;
+  max-width: 25%;
+  height: auto;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.about-image {
+  text-align: center;
+  img {
+    width:300px; /* you can use % */
+    height: 300px;
+  }
+}
