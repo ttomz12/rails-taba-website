@@ -1,16 +1,31 @@
 <html>
 <body>
-  <div class="email-container">
-    <form method="POST" action="https://simple-form.com/taro.tomiya@gmail.com" class="email-form">
-      <div class="email-title">
-        <h2><b>Escríbenos!</b></h2>
+  <div class="contact-form">
+    <div class="container-8 w-container">
+      <h2 class="heading-15"><b>Escríbenos</b></h2>
+      <p class="paragraph-4">Cuéntanos lo que tienes en mente!</p>
+      <div class="form-block-2 w-form">
+        <form method="POST" action="https://simple-form.com/taro.tomiya@gmail.com" class="email-form">
+            <div class="contact-form-grid">
+              <div id="w-node" class="input-div">
+                <label for="NAME-3" id="contact-first-name" class="field-label">Nombre *</label>
+                <input type="text" class="textarea w-input" maxlength="256" name="name" placeholder="Ingresa tu nombre completo aquí" id="NAME-3" required />
+              </div>
+              <div id="w-node" class="input-div">
+                <label for="email-2" id="contact-email" class="field-label">Correo Electrónico *</label>
+                <input type="email" class="textarea w-input" maxlength="256" name="replyTo" placeholder="Ingresa tu correo aquí" id="email2" required />
+              </div>
+              <div id="w-node-message">
+                <label for="MESSAGE-4" id="contact-message" class="field-label">Mensaje *</label>
+                <textarea name="message" maxlength="5000" id="MESSAGE-4" placeholder="Ingresa tu mensaje aquí" required class="long-text-area w-input"></textarea>
+              </div>
+            </div>
+          <div class="center-div">
+            <input type="submit" value="Enviar" class="default-button w-button" />
+          </div>
+        </form>
       </div>
-      <input type="text" name="name" placeholder="Nombre completo" />
-      <input type="email" name="replyTo" placeholder="Correo" />
-      <textarea name="message" placeholder="Mensaje"></textarea>
-      <%# <input type="hidden" name="redirectURL" value="http://www.tabato.us" /> %>
-      <input type="submit" value="Enviar" />
-    </form>
+    </div>
   </div>
 
   <%# <div id="map"

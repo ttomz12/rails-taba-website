@@ -1,9 +1,88 @@
-.email-container {
-  margin: 30px;
+.contact-form {
+  padding-top: 100px;
+  padding-bottom: 40px;
+
 }
 
-.email-title {
-  h2 {
-    font-size: 3vw;
-  }
+.contact-form-grid {
+  display: grid;
+  margin-top: 20px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.form-block-2 {
+  margin-bottom: 0;
+}
+
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.w-form {
+  margin: 0 0 15px;
+}
+
+.w-button {
+  background-color: #F05454;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #30475E;
+}
+
+.w-input, .w-select {
+  height: auto;
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.field-label {
+  text-align: left;
+}
+
+.text-area {
+
+}
+
+.long-text-area {
+  min-height: 200px;
+  border-radius: 8px;
+}
+
+#w-node-message {
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  grid-column-start: span 2;
+  grid-column-end: span 2;
+}
+
+#form-name {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 700;
+  display: block;
+}
+
+textarea {
+  overflow: auto;
 }
