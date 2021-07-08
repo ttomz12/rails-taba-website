@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsTabaWebsite</title>
+    <title>Tabato</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +11,11 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
 
     <%= stylesheet_pack_tag 'application' %>
+
+    <%= favicon_link_tag 'favicon.png'  %>
+
+  <title><%= meta_title %></title>
+  <meta name="description" content="<%= meta_description %>">
   </head>
 
   <body>
