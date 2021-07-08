@@ -25,87 +25,8 @@ body {
   //font-family: 'IBM Plex Serif', serif;
 }
 
-.banner {
-  padding-top: 120px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
-  background-size: cover;
-  background-position: center;
-  //style="background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80')"
-  height: 500px;
-  font-size: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  h1 {
-    color: #F05454;
-    font-size: 70px;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: black 2px 2px 4px;
-  }
-}
-
-.banner-text {
-  color: white;
-  font-size: 30px;
-  text-shadow: black 1px 1px 2px;
-  font-style: italic;
-  width: 65%;
-}
-
-.about-us {
-  margin-top: 40px;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 40%;
-  h1 {
-    font-size: 3.25vw;
-  }
-  p {
-    font-size: 1.5vw;
-  }
-}
-
-.info-header {
-  margin-top: 10px;
-  //padding: 10px;
-  h1 {
-    font-size: 3.25vw;
-  }
-}
-
-.info-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.info-offering {
-  width: 40%;
-  margin: 10px;
-  border-radius: 10px;
-  background-color: #30475E;
-  display: flex;
-  align-items: center;
-  p {
-    margin-bottom: 0;
-    color: white;
-  }
-}
-
-.info-box {
-  width: 40%;
-  h2 {
-    font-size: 2.75vw;
-  }
-  p {
-    font-size: 1.5vw;
-  }
-}
-
 .footer {
+  align-items: flex-start;
   background-color: black;
   color: white;
   padding: 8px;
